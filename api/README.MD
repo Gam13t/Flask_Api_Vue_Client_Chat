@@ -11,7 +11,7 @@ This Flask chat API will fit for all people who want to learn the main basic ide
 - For hashing and proceeding secure storage of passwords we will use Werkzeug.security library.
 - For adding messages history and adding them nessesary to the chat without reloading of page(when API working with client not on localhost) we will use Pusher API.
 
-### What methods are in this API
+### What methods are in this API?
 Our goal is to build a private chat with your own personal account and message history as well. So, for this we need to handle and proceed some requests. List of them are below:
 - **Register <POST>**
 
