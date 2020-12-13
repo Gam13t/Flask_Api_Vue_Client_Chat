@@ -11,18 +11,20 @@ This VUE.js chat client will fit for all people who want to learn the main basic
 For setting this project up, make sure that you have pre-installed Node.js with node --version.
 
 - Install Vue CLI globally on your system
->  $ npm install -g @vue/cli
-> // installing Vue
->  $ vue create vue_chat_client
->  // creating vue project 
->  $ cd vue_chat_client
->  $ npm run serve
->  // if you setup everything correctly soon you'll get the log with successfull boot of client. That means you can proceed to next step.
+>  $ npm install -g @vue/cli  
+> // installing Vue  
+>  $ vue create vue_chat_client  
+>  // creating vue project  
+>  $ cd vue_chat_client  
+>  $ npm run serve  
+>  // if you setup everything correctly soon you'll get the log with successfull boot of client. That means you can proceed to next step.  
 
 - Add libraries
-> vue add axios
-> npm install pusher-js
-> vue add bootstrap-vue 
-> // while installing bootstrap-vue make sure you don't use babel/polyfill and set them to No.
+> vue add axios  
+> npm install pusher-js  
+> vue add bootstrap-vue   
+> // while installing bootstrap-vue make sure you don't use babel/polyfill and set them to No.  
+
 ###### While installng axios you may experience error logs from vue js, the only way to solve them is to delete line of code with exception from vue_chat_client/src/plugins/axios.js
+
 - Now put all files from github into vue_chat_client project folder and execute npm run serve. If you setup everything correctly soon you'll get the log with successfull boot of client. That means you're cool.
