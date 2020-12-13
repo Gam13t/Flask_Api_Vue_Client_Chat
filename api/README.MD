@@ -67,10 +67,10 @@ without any addutionak params. This method required for getting all messages in 
 - **Activate virtual enviroment**
 > \path\to\env\Scripts\activate
 - **Add your PUSHER API KEYS TO .env file**
->    PUSHER_APP_ID=app_id
-    PUSHER_KEY=key
-    PUSHER_SECRET=secret
-    PUSHER_CLUSTER=cluster
+>    PUSHER_APP_ID=app_id  
+    PUSHER_KEY=key  
+    PUSHER_SECRET=secret  
+    PUSHER_CLUSTER=cluster  
 - **Install requirements.txt**
 > pip install -r requirements.txt
 - **Start-up project**
