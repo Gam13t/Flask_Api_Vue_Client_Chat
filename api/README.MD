@@ -73,7 +73,7 @@ without any addutionak params. This method required for getting all messages in 
     PUSHER_CLUSTER=cluster  
 - **Install requirements.txt**
 > pip install -r requirements.txt
--**Initialize database.db**
+- **Initialize database.db**
 In command line navigate to project folder, activate venv and launch python executor.  
 Then import init_db() from database.py and execute it for initialzing database.db
 - **Start-up project**
